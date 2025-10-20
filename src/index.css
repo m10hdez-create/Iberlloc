@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Uncial+Antiqua&family=Crimson+Text:wght@400;700&display=swap');
+
+body {
+  font-family: "Cinzel", serif;
+  background-color: #d9c4a8;
+  background-image: url('./assets/iberian-bg.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+header {
+  background: rgba(247, 236, 220, 0.9);
+  border: 2px solid #9c6b3f;
+  border-radius: 12px;
+  padding: 10px 20px;
+  box-shadow: 0 2px 5px rgba(50, 30, 10, 0.3);
+}
+
+h1 {
+  font-family: 'Uncial Antiqua', cursive;
+  color: #5b3212;
+  text-shadow: 1px 1px 2px #d6b88a;
+}
+
+button {
+  transition: transform 0.15s ease, background-color 0.15s ease;
+}
+button:hover {
+  transform: scale(1.04);
+}
+
+.bg-paper {
+  background-color: rgba(255, 248, 235, 0.85);
+  border: 1px solid #c6a475;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(60, 40, 20, 0.25);
+}
+
+/* Animació suau d'aparició */
+.fade-in {
+  animation: appear 0.9s ease-out;
+}
+@keyframes appear {
+  from { opacity: 0; transform: translateY(6px) scale(0.995); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
