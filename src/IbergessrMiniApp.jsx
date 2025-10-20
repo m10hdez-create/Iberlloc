@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 
-const GOOGLE_MAPS_API_KEY = "AIzaSyBhQteBWTR-kQ1V9HBCQcz8SaZ0ZOOWEr0";
+const GOOGLE_MAPS_API_KEY = "AIzaSyC7ZSNvKOIUwGtC-kczvU-4JUMePbbSvVo";
 
 const SITES = [
   { id: "alcudia", title: "L'Alcúdia (Elx / Elche)", coords: { lat: 38.2397, lng: -0.69556 }, hint: "Jaciment arqueològic on va aparèixer una famosa dama ibérica." },
